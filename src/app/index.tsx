@@ -41,7 +41,6 @@ const app = () => {
   )
 }
 export default app
-
 const styles = StyleSheet.create({
   container: {
     flex: 1,
@@ -111,9 +110,8 @@ const styles = StyleSheet.create({
     fontSize: 14,
   },
   secondContainer: {
-    marginHorizontal: 20,
-    height: 200,
-    borderRadius: 12,
+    marginHorizontal: 0,
+    height: 250,
     overflow: 'hidden',
   },
   secondImage: {
